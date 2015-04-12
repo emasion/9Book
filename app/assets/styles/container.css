@@ -1,0 +1,146 @@
+.main-container {
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+	background-color: #0d3349;
+}
+
+.flex-column-container {
+	display: -webkit-flex;
+	display: flex;
+	-webkit-flex-direction: column;
+	flex-direction: column;
+}
+
+.flex-column {
+	-webkit-flex: 1;
+	flex: 1;
+}
+
+#mainBook {
+
+}
+
+#bookContainer {
+	margin:0 auto;
+	display: -webkit-flex;
+	display: flex;
+	text-align: center;
+	position: relative;
+	overflow: visible !important;
+}
+
+#bookComponent {
+	margin: auto;
+}
+
+#bookComponent .book-page{
+
+}
+
+.page-container{
+	width: 100%; height: 100%;
+}
+
+.book-page-image{
+	width: 100%; height: 100%;
+	background-size: 100% 100%;
+}
+
+#bookComponent .shadow{
+	box-shadow: 0 4px 10px #888;
+}
+
+#bookContainer .zoom-in .even .gradient,
+#bookContainer .zoom-in .odd .gradient{
+	display:none;
+}
+
+#bookContainer .shadow{
+	-webkit-transition: -webkit-box-shadow 0.5s;
+	-moz-transition: -moz-box-shadow 0.5s;
+	-o-transition: -webkit-box-shadow 0.5s;
+	-ms-transition: -ms-box-shadow 0.5s;
+
+	-webkit-box-shadow:0 0 20px #000;
+	-moz-box-shadow:0 0 20px #000;
+	-o-box-shadow:0 0 20px #000;
+	-ms-box-shadow:0 0 20px #000;
+	box-shadow:0 0 20px #000;
+}
+
+#bookContainer .odd .gradient {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: -webkit-gradient(linear, right top, left top, color-stop(0.95, transparent), color-stop(1, rgba(0, 0, 0, 0.15)));
+	background-image: -webkit-linear-gradient(right,transparent 95%, rgba(0, 0, 0, 0.15) 100%);
+	background-image: -moz-linear-gradient(right, transparent 95%, rgba(0, 0, 0, 0.15) 100%);
+	background-image: -ms-linear-gradient(right, transparent 95%, rgba(0, 0, 0, 0.15) 100%);
+	background-image: -o-linear-gradient(right, transparent 95%, rgba(0, 0, 0, 0.15) 100%);
+	background-image: linear-gradient(right, transparent 95%, rgba(0, 0, 0, 0.15) 100%);
+}
+
+#bookContainer .even .gradient {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: -webkit-gradient(linear, left top, right top, color-stop(0.95, transparent), color-stop(1, rgba(0, 0, 0, 0.15)));
+	background-image: -webkit-linear-gradient(left,transparent 95%, rgba(0, 0, 0, 0.15) 100%);
+	background-image: -moz-linear-gradient(left, transparent 95%, rgba(0, 0, 0, 0.15) 100%);
+	background-image: -ms-linear-gradient(left, transparent 95%, rgba(0, 0, 0, 0.15) 100%);
+	background-image: -o-linear-gradient(left, transparent 95%, rgba(0, 0, 0, 0.15) 100%);
+	background-image: linear-gradient(left, transparent 95%, rgba(0, 0, 0, 0.15) 100%);
+}
+
+#bookContainer .gradient {
+	z-index: 1;
+	position: absolute;
+	width: 100%;
+	height: 100%;
+}
+
+#bookComponent .bookmark-item {
+	width: 35px;
+	height: 70px;
+	top: 0px;
+	z-index: 2;
+	background-image: url('../images/bookmark.png');
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: 100%;
+	text-align: center;
+	position: absolute;
+	margin-top: -3px;
+	-webkit-transition: margin-top 0.3s;
+	transition: margin-top 0.3s;
+}
+
+#bookComponent .bookmark-item:hover {
+	margin-top: -25px;
+}
+
+#bookComponent .bookmark-button {
+	color: #ffffff;
+	margin: 0 auto;
+	width: 100%;
+	height: 100%;
+	display: block;
+	padding: 7px;
+}
+
+#bookComponent .content-container {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+}
+
+#bookComponent .content-container .content-template {
+	position: absolute;
+	z-index: 1;
+}
+

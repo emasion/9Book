@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="ko">
+    <head>
+	    <title>9Book</title>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+	    <meta name="apple-mobile-web-app-capable" content="yes" />
+	    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+        <meta name="description" content="">
+	    <meta content="width=device-width,initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no" name="viewport" />
+        <link rel="shortcut icon" href="assets/images/favicon.ico">
+
+        <!-- build:js(app) assets/styles/main.css -->
+        <link rel="stylesheet" href="assets/styles/common.css">
+	    <link rel="stylesheet" href="assets/styles/container.css">
+	    <link rel="stylesheet" href="assets/styles/component.css">
+	    <link rel="stylesheet" href="assets/styles/capbar.css">
+	    <link rel="stylesheet" href="assets/styles/control.css">
+	    <link rel="stylesheet" href="assets/styles/zoomviewer.css">
+	    <link rel="stylesheet" href="assets/styles/animation.css">
+	    <link rel="stylesheet" href="assets/styles/autocomplete.css">
+	    <link rel="stylesheet" href="assets/styles/popup.css">
+        <!-- endbuild -->
+
+        <!-- build:js(app) assets/styles/vendor.css -->
+        <!-- bower:css -->
+        <!-- endbower -->
+        <link rel="stylesheet" href="vendor/bootstrap-window/bootstrap-window.css">
+        <link rel="stylesheet" href="vendor/masterslider/style/masterslider.css">
+        <link rel="stylesheet" href="vendor/masterslider/skins/light-6/style.css">
+        <link rel='stylesheet' href='vendor/masterslider/slider-templates/carousel3d/style/ms-caro3d.css' type='text/css'>
+        <!-- endbuild -->
+
+    </head>
+    <body>
+
+        <div class="main-container flex-column-container">
+            <div id="mainCapBar"></div>
+            <div id="mainBook" class="flex-column" ></div>
+            <div id="mainControlBar"></div>
+        </div>
+        <div id="tableList" class="tablelist-panel"></div>
+        <div id="zoomViewer"></div>
+
+        <!-- thumbnailSlider -->
+        <div class="thumbnail-slider ms-partialview-template">
+            <div id="thumbnailSlider" class="master-slider ms-skin-light-6 ms-skin-round"></div>
+        </div>
+
+        <!-- bootstrap window -->
+        <div id="windowManager"></div>
+
+        <!-- searchView -->
+        <div id="searchView"></div>
+
+        <script data-main="scripts/main" src="lib/requirejs/require.js"></script>
+
+</body>
+</html>

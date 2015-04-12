@@ -1,0 +1,21 @@
+<div data-id="<%= id %>" class="content-video content-template" style="top: <%= position.y %>px; left: <%= position.x %>px;" title="<%= options.title%>">
+
+    <video id="contentVideo_<%= id %>"
+           class="video-js vjs-sublime-skin"
+           controls preload="auto"
+           width="<%= size.width %>"
+           height="<%= size.height %>"
+           poster="<%= options.posterUrl %>"
+           data-setup='{ "controls": true, "autoplay": false, "preload": "auto" }'>
+        <source src="<%= options.videoUrl %>" type='video/mp4' />
+        <% if (options.videoUrl_webm) { %>
+        <source src="<%= options.videoUrl_webm %>" type='video/webm' />
+        <% } %>
+        <% if (options.videoUrl_ogv) { %>
+        <source src="<%= options.videoUrl_ogv %>" type='video/ogg' />
+        <% } %>
+        <!--<track kind="captions" src="demo.captions.vtt" srclang="ko" label="Korean"></track>
+        <track kind="subtitles" src="demo.captions.vtt" srclang="ko" label="Korean"></track>-->
+        <p class="vjs-no-js">To view this video please enable JavaScript, and consider upgrading to a web browser that <a href="http://videojs.com/html5-video-support/" target="_blank">supports HTML5 video</a></p>
+    </video>
+</div>

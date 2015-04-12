@@ -1,0 +1,11 @@
+<div data-id="<%= id %>" class="content-text content-template" style="top: <%= position.y %>px; left: <%= position.x %>px; rotation: <%= position.roation %>;" title="<%= options.title %>">
+    <a href="<%= options.linkUrl %>">
+        <div style="width: <%= size.width %>px; height: <%= size.height %>px; background-color: <%= options.bgColor %>; opacity: <%= options.opacity %>; color: <%= options.fontColor %>;"
+             onmouseover="this.style.backgroundColor = '<%= options.bgColorHover %>';"
+             onmouseout="this.style.backgroundColor = '<%= options.bgColor %>';">
+            <p style="color: <%= options.fontColor %>;"
+               onmouseover="this.style.color = '<%= options.fontColorHover %>';"
+               onmouseout="this.style.color = '<%= options.fontColor %>';"><%= options.text %></p>
+        </div>
+    </a>
+</div>

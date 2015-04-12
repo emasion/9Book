@@ -1,0 +1,16 @@
+<div class="tablelist-title">TABLELIST</div>
+<!-- tableListSlider -->
+<div class="tablelist-slider ms-showcase2-template ms-showcase2-vertical">
+    <div id="tableListSlider" class="master-slider ms-skin-default">
+        <% for(var i=0; i < tableList.length; i++) {%>
+        <!-- new slide -->
+        <div class="ms-slide" data-id="<%= tableList[i]._id %>">
+            <div class="ms-thumb">
+                <span class="tablelist-text"><%= tableList[i].contents %></span>
+                <span class="tablelist-page"><%= tableList[i].page %></span>
+            </div>
+        </div>
+        <!-- end of slide -->
+        <% } %>
+    </div>
+</div>

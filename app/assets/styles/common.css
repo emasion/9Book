@@ -1,0 +1,150 @@
+/* 감성개발  2014-03-03 */
+@charset "utf-8";
+/* reset */
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, button, blockquote, a, address, img, strong, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, input
+{margin:0; padding:0; font-size:100%;}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, canvas, details, figcaption, figure, footer, header, nav, menu, nav, section {margin:0; padding:0; display:block;}
+html, body {width:100%; height:100%; background:#fff; -webkit-text-size-adjust:none;}
+html {overflow: hidden;}
+body, input, button, textarea, select {font-family:'나눔고딕', NanumGothic, '굴림', 'Gulim', 'sans-serif', 'Tahoma', Sans-serif; font-size:12px; color:#000; line-height:1.2;}
+input, select, button{vertical-align:middle}
+li {list-style:none}
+img {max-width:100%; border:none;}
+img {margin:0; padding:0; vertical-align:top;}
+fieldset, iframe{border:none;}
+textarea {resize:none;}
+legend {display:none;}
+button {margin:0; padding:0; border:0; cursor:pointer;}
+table {border-spacing:0; border-collapse:collapse;}
+caption, th, td {text-align:left;}
+em, address{font-style:normal;}
+label {cursor:pointer;}
+object {outline:none;}
+a, a:hover, a:active {text-decoration: none;}
+
+.text-align-center {
+	text-align: center;
+}
+
+.modal-soft {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	right: 0px;
+	bottom:0px;
+	background-color: #000000;
+	opacity: 0.3;
+}
+
+/* thumbnailList ------- */
+.thumbnail-slider {
+	 position: absolute !important;
+	 z-index: 99;
+	 bottom: 50px;
+	 width: 100%;
+	 max-width: 100% !important;
+	 background-color: rgba(41, 87, 138, 0.8);
+	 top: 100000px;
+ }
+
+.ms-slide {
+	box-shadow: 0 4px 10px #888;
+}
+
+.ms-caption {
+	padding: 3px;
+}
+
+.ms-nav-next {
+	right: -20px !important;
+}
+
+.ms-nav-prev {
+	left: -20px !important;
+}
+
+/* ------- thumbnailList */
+
+
+/* tableList ----- */
+.tablelist-title {
+	text-align: center;
+	color: #fff;
+	font-weight: bold;
+}
+
+.tablelist-slider {
+	z-index: 99;
+	width: 100%;
+	margin-top: 10px;
+}
+
+.tablelist-slider .ms-thumb-list {
+	background-color: #b0d4d4;
+}
+
+.tablelist-slider .ms-thumb-frame {
+	padding: 5px 10px;
+	box-sizing: border-box;
+	opacity: 1;
+	border-bottom: 1px solid #b0d4d4;
+	background-color: #f4f8f7;
+	line-height: 30px;
+	font-size: 12px;
+}
+
+.tablelist-slider .ms-thumb-frame:hover {
+	background-color: #a4cccc;
+	color: #fff;
+}
+
+.tablelist-slider .ms-thumb-frame.selected {
+	background-color: #a4cccc;
+	color: #fff;
+}
+
+.tablelist-slider .ms-thumb-frame:first-child {
+	border-top-left-radius: 4px;
+	border-top-right-radius: 4px;
+}
+
+.tablelist-slider .ms-thumb-frame:last-child {
+	border-bottom-left-radius: 4px;
+	border-bottom-right-radius: 4px;
+}
+
+.tablelist-slider .ms-thumb-frame span.tablelist-text{
+	text-align: left;
+	float: left;
+}
+
+.tablelist-slider .ms-thumb-frame span.tablelist-page{
+	text-align: right;
+	float: right;
+}
+
+.tablelist-panel {
+	display: none;
+	width: 220px;
+	padding: 15px;
+	background-color: #b0d4d4;
+	color: #84b1aa;
+	box-shadow: inset 0 0 2px 2px #84b1aa;
+}
+
+/* ----- tableList */
+
+
+span.highlight {
+	background-color: #3a87ad;
+	display: inline-block;
+	padding: 1px 2px;
+	font-weight: bold;
+	line-height: 14px;
+	color: #ffffff;
+	text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+	white-space: nowrap;
+	vertical-align: baseline;
+}

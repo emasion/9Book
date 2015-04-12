@@ -1,0 +1,123 @@
+#zoomViewer {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	right: 0px;
+	bottom: 0px;
+	z-index: 999;
+	display: none;
+}
+
+#pageZoomPan {
+	position: absolute;
+	top:0px;
+	left:0px;
+	bottom: 0px;
+	right:0px;
+	overflow: hidden;
+}
+
+#pageZoomControl {
+	position: absolute;
+	top: 80px;
+	display: block;
+	z-index:3001;
+	width: 220px;
+	height: 40px;
+	margin:auto;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+	border-bottom-right-radius: 5px;
+	border-bottom-left-radius: 5px;
+	left: 50%;
+	margin-left: -110px;
+	-webkit-box-shadow: rgba(0, 0, 60, 0.8) 0px 0px 10px;
+	box-shadow: rgba(0, 0, 60, 0.8) 0px 0px 10px;
+	display: block;
+	opacity: 0.7;
+	background-color: #000000;
+}
+
+#pageZoomControl .slider {
+	width: 140px;
+	top: 11px;
+	left: 23px;
+	position: absolute;
+}
+
+#pageZoomControl .tooltip {
+	top: -40px !important;
+}
+
+#zoomPageSlider {
+	width: 140px;
+	top: 11px;
+	left: 23px;
+	position: absolute;
+}
+
+#zoomBox{
+	position: absolute;
+	left: 0px;
+	top: 0px;
+}
+
+#zoomViewer [data-id=btnZoomClose] {
+	display:block;
+	right:10px;
+	top:5px;
+	position:absolute;
+	color: #ffffff;
+	background: none;
+	padding: 6px;
+}
+
+#zoomViewer [data-id=btnZoomClose]:hover {
+	color: #0e90d2;
+}
+
+#zoomViewer .zoom_cursor{
+	cursor: url('../images/hand.cur') 6 8, pointer;
+}
+
+#zoomViewer .zoom_drag_cursor{
+	cursor: url('../images/grab.cur') 6 8, pointer;
+}
+
+#zoomViewer .zoom-viewer-page{
+	position: relative;
+	float: left;
+}
+
+#zoomViewer .zoom-viewer-page-right {
+	position: relative;
+	float: left;
+}
+
+#zoomViewer span.zoom-viewer-bgimg {
+	z-index: 0;
+	position: absolute;
+	left:0px;
+	top:0px;
+	display: block;
+}
+
+#dragHandle {
+	position: absolute;
+	left:0px;
+	top:0px;
+	z-index: 3000;
+	width: 100%;
+	height: 100%;
+}
+
+#zoomViewer .content-container {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	overflow: hidden;
+}
+
+#zoomViewer .content-container .content-template {
+	position: absolute;
+}

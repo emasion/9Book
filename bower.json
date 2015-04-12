@@ -1,0 +1,27 @@
+{
+  "name": "9Book",
+  "version": "0.0.1",
+  "dependencies": {
+    "requirejs": "~2.1.10",
+    "requirejs-text": "~2.0.10",
+    "jquery": "~1.11.1",
+    "underscore": "~1.6.0",
+    "backbone": "~1.1.0",
+    "modernizr": "~2.5.3",
+    "moment": "~2.8.1",
+    "touchy": "*",
+    "jquery-mobile-events": "~1.4.0",
+    "jquery-indexeddb": "~0.1.0",
+    "jquery-cookie": "~1.4.1",
+    "jquery-panelslider": "~0.1.1",
+    "typeahead.js": "~0.10.5",
+    "bootstrap-slider": "*",
+    "bootstrap-dialog": "~1.33.5",
+    "handlebars.js": "~2.0.0",
+    "yepnope": "~1.5.4",
+    "gsap": "~1.14.2",
+    "bootstrap": "~3.3.1",
+    "video.js": "~4.11.4",
+    "videojs-sublime-skin": "~1.0.1"
+  }
+}

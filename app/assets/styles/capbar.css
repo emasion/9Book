@@ -1,0 +1,13 @@
+#mainCapBar {
+	height: 50px;
+	z-index: 99;
+}
+
+/* overwrite */
+@media (max-width: 767px) {
+	.navbar-form .form-group[data-id="prefetch"] {
+		float: left;
+		margin-right: 5px;
+	}
+}
+

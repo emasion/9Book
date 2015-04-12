@@ -1,0 +1,8 @@
+<div data-id="<%= id %>" class="content-link content-template" style="top: <%= position.y %>px; left: <%= position.x %>px; rotation: <%= position.roation %>;" title="<%= options.title %>">
+    <a href="<%= options.linkUrl %>">
+        <div style="width: <%= size.width %>px; height: <%= size.height %>px; background-color: <%= options.bgColor %>; opacity: <%= options.opacity %>;"
+             onmouseover="this.style.backgroundColor = '<%= options.bgColorHover %>';"
+             onmouseout="this.style.backgroundColor = '<%= options.bgColor %>'; ">
+        </div>
+    </a>
+</div>

@@ -1,0 +1,91 @@
+[
+    {
+        "title": "새 페이지",
+        "id": "book01_1428503891691139",
+        "_id": "book01_1428503891691139",
+        "page": 1,
+        "items": [
+            {
+                "id": "image11428843971577",
+                "type": "image",
+                "position": {
+                    "x": 14,
+                    "y": 13,
+                    "z": 0
+                },
+                "size": {
+                    "width": 154,
+                    "height": 138
+                },
+                "options": {
+                    "linkUrl": "",
+                    "linkTarget": "_blank",
+                    "title": "Image",
+                    "text": "Image",
+                    "imageUrl": "_02 (2)1428843985721.jpg"
+                }
+            },
+            {
+                "id": "text21428843988601",
+                "type": "text",
+                "position": {
+                    "x": 189,
+                    "y": 28,
+                    "z": 0
+                },
+                "size": {
+                    "width": 166,
+                    "height": 149
+                },
+                "options": {
+                    "text": "<p></p>",
+                    "opacity": 1,
+                    "bgColor": "#333333",
+                    "fontColor": "#f3f3f3"
+                }
+            },
+            {
+                "id": "link31428843999555",
+                "type": "link",
+                "position": {
+                    "x": 23,
+                    "y": 203,
+                    "z": 0
+                },
+                "size": {
+                    "width": 170,
+                    "height": 149
+                },
+                "options": {
+                    "linkUrl": "",
+                    "linkTarget": "_blank",
+                    "bgColor": "#333333",
+                    "bgColorHover": "#ffffff",
+                    "opacity": "0.3",
+                    "title": "Link",
+                    "text": ""
+                }
+            },
+            {
+                "id": "video41428844008592",
+                "type": "video",
+                "position": {
+                    "x": 252,
+                    "y": 261,
+                    "z": 0
+                },
+                "size": {
+                    "width": 259,
+                    "height": 182
+                },
+                "options": {
+                    "text": "",
+                    "videoTitle": "비디오",
+                    "videoUrl": "[tvN] 미생.E05.141031.HDTV.H264.720p-WITH1428844021564.mp4",
+                    "posterUrl": "2014_021428844034703.jpg"
+                }
+            }
+        ],
+        "pageImage": "1428503843598_0135.png"
+    }
+]

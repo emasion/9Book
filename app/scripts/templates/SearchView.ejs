@@ -1,0 +1,21 @@
+<div id="searchView">
+    <div class="search-top"><span class="search-kwd">검색어 : <%= kwd %></span><span class="search-total-count">검색결과 : <%= totalLength %> 개</span></div>
+    <table data-id="searchTable" class="table table-hover search-table">
+        <thead>
+        <tr>
+            <th width="50">번호</th>
+            <th>검색어</th>
+            <th width="70">페이지</th>
+        </tr>
+        </thead>
+        <tbody>
+            <% for(var i=0; i < searchItems.length; i++) {%>
+            <tr data-page="<%= searchItems[i].page %>">
+                <td><%= searchItems[i].row %></td>
+                <td><%= searchItems[i].searchText %></td>
+                <td style="text-align: center"><%= searchItems[i].page %></td>
+            </tr>
+            <% } %>
+        </tbody>
+    </table>
+</div>
