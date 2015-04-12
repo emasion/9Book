@@ -8,7 +8,9 @@ logs
 # temp data
 .tmp
 app/.tmp
-app/public
+app/public/contents
+app/public/pages
+app/public/thumbnail
 
 # bower lib
 app/lib
