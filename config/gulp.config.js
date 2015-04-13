@@ -20,15 +20,15 @@ var config = {
             images: SRC_DIR + '/assets/images/**/*.*',
             fonts: SRC_DIR + '/assets/fonts/**/*.*',
             html: SRC_DIR + '/index.html',
-            vendor: SRC_DIR + '/vendor/**/*.*',
+            vendor: SRC_DIR + '/lib/**/*.*',
             lib: SRC_DIR + '/lib/**/*.*',
             tmp: SRC_DIR + '/.tmp',
-            requirejs: SRC_DIR + '/lib/requirejs/require.js',
+            requirejs: SRC_DIR + '/vendor/requirejs/require.js',
             public: SRC_DIR + '/public/**/*.*',
             msimages: [
-                SRC_DIR + '/vendor/masterslider/style/loading-2.gif',
-                SRC_DIR + '/vendor/masterslider/skins/light-6/light-skin-6.png',
-                SRC_DIR + '/vendor/masterslider/skins/light-6/light-skin-6-retina.png',
+                SRC_DIR + '/lib/masterslider/style/loading-2.gif',
+                SRC_DIR + '/lib/masterslider/skins/light-6/light-skin-6.png',
+                SRC_DIR + '/lib/masterslider/skins/light-6/light-skin-6-retina.png',
             ]
         },
         dist: {
@@ -36,7 +36,7 @@ var config = {
             styles: BUILD_DIR + '/assets/styles',
             images: BUILD_DIR + '/assets/images',
             fonts: BUILD_DIR + '/assets/fonts',
-            requirejs: BUILD_DIR + '/lib/requirejs',
+            requirejs: BUILD_DIR + '/vendor/requirejs',
             public: BUILD_DIR + '/public'
         },
         tmp: {

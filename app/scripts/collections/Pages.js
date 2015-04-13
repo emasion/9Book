@@ -8,7 +8,7 @@ define([
     'use strict';
 
 	var PageCollection = Backbone.Collection.extend({
-		url: 'public/json/pages.json',
+		url: './public/json/pages.json',
 		dataType: 'json',
 		model: PageModel,
 		parse: function(response) {

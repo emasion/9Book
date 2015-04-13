@@ -12,8 +12,8 @@ app/public/contents
 app/public/pages
 app/public/thumbnail
 
-# bower lib
-app/lib
+# bower vendor
+app/vendor
 
 # build
 dist

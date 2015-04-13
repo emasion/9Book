@@ -7,7 +7,7 @@ define([
     'use strict';
 
 	var TableListModel = Backbone.Model.extend({
-		url: '/public/json/tablelist.json',
+		url: './public/json/tablelist.json',
 		dataType: 'json',
 		tableList: [],
 		load: function () {

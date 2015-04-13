@@ -5,7 +5,7 @@ define([
     'use strict'
 
 	var Config = Backbone.Model.extend({
-		url: '/public/json/config.json',
+		url: './public/json/config.json',
 		dataType: 'json',
 		defaults: {
 			"version": "0.1",

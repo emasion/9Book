@@ -8,7 +8,7 @@ define([
     'use strict';
 
 	var ContentsCollection = Backbone.Collection.extend({
-		url: '/public/json/contents.json',
+		url: './public/json/contents.json',
 		dataType: 'json',
 		model: ContentModel,
 		parse: function(response) {
