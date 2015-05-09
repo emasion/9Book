@@ -25,7 +25,8 @@ define([
 			var self = this,
 				$el = this.$el;
 
-			return contentsCollection().get(page);
+			return contentsCollection().models[page-1];
+
 		},
 
 		render: function(page) {

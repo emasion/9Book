@@ -11,7 +11,7 @@ define([
         defaults: {
 	        "_id": "1",
 	        "page": "1",
-	        "itmes": []
+	        "items": []
         },
         initialize: function() {
         }
